@@ -1,0 +1,54 @@
+//neutral colors
+$neutralPrimary: #333333;
+$neutralSecondary: #545454;
+$neutralTertiary: #a6a6a6;
+$neutralLight: #eaeaea;
+$neutralLightest: #f4f4f4;
+$neutralDarker: #121212;
+$white: #ffffff;
+//theme colors
+$themePrimary: #006dff;
+$themeDarker: #002859;
+$themeLighter: #88bbff;
+//font families
+$fontPrimary: 'Lato', 'Helvetica', sans-serif;
+$fontSecondary: 'Gill Sans', 'Montserrat', sans-serif;
+$fontTertiary: 'Didot', 'Baskerville', 'Minion Pro', serif;
+
+h1 {
+  font-family: $fontPrimary;
+  font-size: 18px;
+  font-weight:600;
+  color: $neutralPrimary;
+  margin:0px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: $fontPrimary;
+  font-size:14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: $neutralSecondary;
+  margin:0px;
+}
+
+h2 {
+  font-family: $fontPrimary;
+  font-size:14px;
+  font-weight: 300;
+  color: $neutralPrimary;
+  margin:0px;
+  letter-spacing: 0.4px;
+}
+
+h3 {
+  font-family: $fontPrimary;
+  font-size:14px;
+  line-Height:21px;
+  font-weight: 300;
+  color: white;
+  margin:0px;
+  letter-spacing: 0.4px;
+  width:50%;
+}
